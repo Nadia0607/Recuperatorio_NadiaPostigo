@@ -1,0 +1,90 @@
+2023-10-31T01:54:28.492Z error: Error 400 - The user is already registered
+2023-10-31T01:54:28.512Z info: [0mPOST /auth/signup [33m400[0m 113.015 ms - 57[0m
+2023-10-31T01:54:54.241Z info: [0mPOST /auth/signup [32m200[0m 190.804 ms - 220[0m
+2023-10-31T01:56:59.343Z error: Error 401 - Invalid Password
+2023-10-31T01:56:59.347Z info: [0mPOST /auth/login [33m401[0m 25.554 ms - 43[0m
+2023-10-31T01:57:46.601Z error: Error 401 - Invalid Password
+2023-10-31T01:57:46.603Z info: [0mPOST /auth/login [33m401[0m 11.197 ms - 43[0m
+2023-10-31T01:57:58.502Z error: Error 401 - Invalid Password
+2023-10-31T01:57:58.504Z info: [0mPOST /auth/login [33m401[0m 105.507 ms - 43[0m
+2023-10-31T01:58:08.804Z info: [0mPOST /auth/login [32m200[0m 112.882 ms - 403[0m
+2023-10-31T02:01:37.856Z error: Error 401 - Missing authorization header.
+2023-10-31T02:01:37.869Z info: [0mPOST /users/ [33m401[0m 38.824 ms - 56[0m
+2023-10-31T02:03:02.755Z error: Validation Error: Debe cargar una imagen
+2023-10-31T02:03:02.756Z error: Error 400 - Debe cargar una imagen
+2023-10-31T02:03:02.757Z info: [0mPOST /users/ [33m400[0m 52.950 ms - 49[0m
+2023-10-31T02:04:16.661Z info: [0mPOST /users/ [32m200[0m 144.884 ms - 298[0m
+2023-10-31T02:05:43.460Z info: [0mGET /users/653efe4f55aa91825df2a72a [32m200[0m 18.545 ms - 4[0m
+2023-10-31T02:05:56.000Z info: [0mGET /users/653efe4f55aa91825df2a72a [32m200[0m 11.506 ms - 4[0m
+2023-10-31T02:05:59.159Z info: [0mGET /users/653efe4f55aa91825df2a72a [32m200[0m 13.749 ms - 4[0m
+2023-10-31T02:06:35.083Z info: [0mGET /users/65405e6e8fe9aee74aeb44b0 [32m200[0m 15.660 ms - 220[0m
+2023-10-31T02:07:30.751Z info: [0mDELETE /users/653f054f55aa91825df2a735 [32m200[0m 32.512 ms - 179[0m
+2023-10-31T20:45:06.994Z info: [0mPOST /auth/login [32m200[0m 159.892 ms - 403[0m
+2023-10-31T20:48:09.893Z info: [0mPOST /auth/signup [32m200[0m 132.936 ms - 229[0m
+2023-10-31T20:48:56.075Z info: [0mPOST /auth/login [32m200[0m 101.481 ms - 412[0m
+2023-10-31T20:50:08.661Z error: Validation Error: la imagen es obligatoria y debe ser una URL
+2023-10-31T20:50:08.662Z error: Error 400 - la imagen es obligatoria y debe ser una URL
+2023-10-31T20:50:08.664Z info: [0mPOST /products/ [33m400[0m 5.984 ms - 70[0m
+2023-10-31T20:50:41.926Z error: Validation Error: la imagen es obligatoria y debe ser una URL
+2023-10-31T20:50:41.929Z error: Error 400 - la imagen es obligatoria y debe ser una URL
+2023-10-31T20:50:41.933Z info: [0mPOST /products/ [33m400[0m 9.537 ms - 70[0m
+2023-10-31T20:51:12.603Z error: Error 401 - Missing authorization header.
+2023-10-31T20:51:12.605Z info: [0mPOST /products/ [33m401[0m 4.276 ms - 56[0m
+2023-10-31T20:51:39.406Z info: [0mPOST /auth/login [32m200[0m 97.812 ms - 412[0m
+2023-10-31T20:52:01.556Z error: Error 401 - Missing authorization header.
+2023-10-31T20:52:01.558Z info: [0mPOST /products/ [33m401[0m 2.238 ms - 56[0m
+2023-10-31T20:52:39.038Z info: [0mPOST /products/ [32m200[0m 12.917 ms - 228[0m
+2023-10-31T20:53:10.558Z info: [0mGET /products/653f02e555aa91825df2a732 [32m200[0m 5.425 ms - 216[0m
+2023-10-31T20:53:34.732Z error: Error 500 - jwt expired
+2023-10-31T20:53:34.733Z info: [0mGET /users/654060a06b809b00e766ce4a [31m500[0m 3.090 ms - 38[0m
+2023-10-31T20:53:54.345Z info: [0mPOST /auth/login [32m200[0m 91.349 ms - 412[0m
+2023-10-31T20:54:33.192Z error: Validation Error: Invalid value, La descripcion debe tener al menos 10 caracteres, El precio no puede ser negativo, la imagen es obligatoria y debe ser una URL
+2023-10-31T20:54:33.193Z error: Error 400 - Invalid value, La descripcion debe tener al menos 10 caracteres, El precio no puede ser negativo, la imagen es obligatoria y debe ser una URL
+2023-10-31T20:54:33.194Z info: [0mDELETE /products/6541691751736af7b35ab5ef [33m400[0m 3.597 ms - 168[0m
+2023-10-31T20:54:51.267Z error: Validation Error: Invalid value, La descripcion debe tener al menos 10 caracteres, El precio no puede ser negativo, la imagen es obligatoria y debe ser una URL
+2023-10-31T20:54:51.268Z error: Error 400 - Invalid value, La descripcion debe tener al menos 10 caracteres, El precio no puede ser negativo, la imagen es obligatoria y debe ser una URL
+2023-10-31T20:54:51.270Z info: [0mDELETE /products/6541691751736af7b35ab5ef [33m400[0m 2.025 ms - 168[0m
+2023-10-31T20:55:59.301Z error: Error 500 - jwt expired
+2023-10-31T20:55:59.302Z info: [0mDELETE /users/6541680951736af7b35ab5e9 [31m500[0m 2.354 ms - 38[0m
+2023-10-31T20:56:21.334Z error: Error 500 - jwt expired
+2023-10-31T20:56:21.336Z info: [0mDELETE /users/6541680951736af7b35ab5e9 [31m500[0m 2.652 ms - 38[0m
+2023-10-31T20:56:28.113Z info: [0mPOST /auth/login [32m200[0m 89.160 ms - 412[0m
+2023-10-31T20:57:15.413Z error: Validation Error: Invalid value, La descripcion debe tener al menos 10 caracteres, El precio no puede ser negativo, la imagen es obligatoria y debe ser una URL
+2023-10-31T20:57:15.414Z error: Error 400 - Invalid value, La descripcion debe tener al menos 10 caracteres, El precio no puede ser negativo, la imagen es obligatoria y debe ser una URL
+2023-10-31T20:57:15.415Z info: [0mDELETE /products/653f02e555aa91825df2a732 [33m400[0m 2.981 ms - 168[0m
+2023-10-31T20:59:18.597Z info: [0mPOST /auth/login [32m200[0m 138.866 ms - 412[0m
+2023-10-31T21:00:01.026Z info: [0mGET /products/6541691751736af7b35ab5ef [32m200[0m 8.712 ms - 228[0m
+2023-10-31T21:00:53.759Z error: Validation Error: Invalid value, La descripcion debe tener al menos 10 caracteres, El precio no puede ser negativo, la imagen es obligatoria y debe ser una URL
+2023-10-31T21:00:53.761Z error: Error 400 - Invalid value, La descripcion debe tener al menos 10 caracteres, El precio no puede ser negativo, la imagen es obligatoria y debe ser una URL
+2023-10-31T21:00:53.763Z info: [0mDELETE /products/653f02e555aa91825df2a732 [33m400[0m 6.632 ms - 168[0m
+2023-10-31T21:02:47.629Z info: [0mDELETE /users/654060a06b809b00e766ce4a [32m200[0m 19.551 ms - 221[0m
+2023-10-31T21:03:35.250Z error: Validation Error: Invalid value, La descripcion debe tener al menos 10 caracteres, El precio no puede ser negativo, la imagen es obligatoria y debe ser una URL
+2023-10-31T21:03:35.251Z error: Error 400 - Invalid value, La descripcion debe tener al menos 10 caracteres, El precio no puede ser negativo, la imagen es obligatoria y debe ser una URL
+2023-10-31T21:03:35.252Z info: [0mDELETE /products/6541691751736af7b35ab5ef [33m400[0m 3.719 ms - 168[0m
+2023-10-31T21:05:34.414Z error: Error 401 - Missing authorization header.
+2023-10-31T21:05:34.418Z info: [0mGET /users [33m401[0m 3.084 ms - 56[0m
+2023-10-31T21:05:52.874Z info: [0mGET /users [32m200[0m 11.142 ms - 452[0m
+2023-10-31T21:06:14.104Z info: [0mGET /products [32m200[0m 3.899 ms - 658[0m
+2023-10-31T21:16:19.813Z error: Validation Error: Invalid value, La descripcion debe tener al menos 10 caracteres, El precio no puede ser negativo, la imagen es obligatoria y debe ser una URL
+2023-10-31T21:16:19.814Z error: Error 400 - Invalid value, La descripcion debe tener al menos 10 caracteres, El precio no puede ser negativo, la imagen es obligatoria y debe ser una URL
+2023-10-31T21:16:19.815Z info: [0mDELETE /products/6541691751736af7b35ab5ef [33m400[0m 4.132 ms - 168[0m
+2023-10-31T21:21:21.832Z info: [0mDELETE /products/6541691751736af7b35ab5ef [32m200[0m 36.687 ms - 228[0m
+2023-10-31T21:23:18.565Z info: [0mGET /users/6541680951736af7b35ab5e9 [32m200[0m 14.017 ms - 229[0m
+2023-10-31T21:24:12.470Z info: [0mPOST /auth/signup [32m200[0m 139.947 ms - 220[0m
+2023-10-31T21:24:40.613Z info: [0mPOST /products/ [32m200[0m 11.839 ms - 228[0m
+2023-10-31T21:51:34.106Z info: [0mPOST /auth/signup [32m200[0m 112.245 ms - 220[0m
+2023-10-31T21:52:00.796Z error: Validation Error: El email no es válido
+2023-10-31T21:52:00.797Z error: Error 400 - El email no es válido
+2023-10-31T21:52:00.798Z info: [0mPOST /auth/signup [33m400[0m 3.172 ms - 49[0m
+2023-10-31T21:52:12.716Z error: Error 400 - The user is already registered
+2023-10-31T21:52:12.718Z info: [0mPOST /auth/signup [33m400[0m 6.811 ms - 57[0m
+2023-10-31T21:52:30.788Z error: Validation Error: Debe cargar una imagen
+2023-10-31T21:52:30.789Z error: Error 400 - Debe cargar una imagen
+2023-10-31T21:52:30.790Z info: [0mPOST /auth/signup [33m400[0m 3.057 ms - 49[0m
+2023-10-31T21:52:57.974Z info: [0mPOST /auth/login [32m200[0m 107.514 ms - 412[0m
+2023-10-31T21:53:27.644Z info: [0mGET /users [32m200[0m 12.528 ms - 894[0m
+2023-10-31T21:53:59.629Z error: Validation Error: El ID no es válido
+2023-10-31T21:53:59.630Z error: Error 400 - El ID no es válido
+2023-10-31T21:53:59.632Z info: [0mGET /products/6541691751736af7b3jkf [33m400[0m 2.568 ms - 46[0m
+2023-10-31T21:54:18.827Z info: [0mGET /products [32m200[0m 4.345 ms - 658[0m
+2023-10-31T21:55:17.219Z info: [0mGET /products [32m200[0m 23.957 ms - 658[0m
